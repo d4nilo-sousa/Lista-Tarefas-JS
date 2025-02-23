@@ -24,6 +24,16 @@ function addTarefa() {
     salvarDados();
 }
 
+// Função para escapar caracteres especiais e prevenir XSS
+function escapeHTML(str) {
+    return str.replace(/&/g, '&amp;')
+              .replace(/</g, '&lt;')
+              .replace(/>/g, '&gt;')
+              .replace(/"/g, '&quot;')
+              .replace(/'/g, '&#039;');
+}
+
+
 //evento de click no botão de adicionar tarefas
 lista.addEventListener('click', function(e) {
     // se o elemento clicado for um item da lista, ele é marcado ou desmarcado
