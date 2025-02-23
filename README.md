@@ -3,8 +3,9 @@
 Este é um projeto simples de uma lista de tarefas desenvolvido com HTML, CSS e JavaScript.
 
 
+
 ## Aparência 
-![Tela Inicial](c:\Users\danil\Downloads\tela_inicial.png)
+![tela_inicial](https://github.com/user-attachments/assets/f9d9d083-15ec-4020-8a8a-1b5a741192ee)
 Essa é a tela inicial da lista de tarefas! Ela é composta por um layout limpo e moderno, com um design centrado que facilita a usabilidade.
 
 ## Funcionalidades
