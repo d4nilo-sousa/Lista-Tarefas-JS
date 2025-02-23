@@ -24,6 +24,7 @@ Essa é a tela inicial da lista de tarefas! Ela é composta por um layout limpo 
   ![xss atack](https://github.com/user-attachments/assets/2457b526-4b2a-40ea-8e06-0094de044033)
 
 
+
   ### Exemplo na lista:
 ![ataque_xss_exemplo](https://github.com/user-attachments/assets/18915a08-0c27-48d0-88e7-8c8131dc68d6)
 
