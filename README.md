@@ -21,10 +21,12 @@ Essa é a tela inicial da lista de tarefas! Ela é composta por um layout limpo 
   - Sanitização de entradas para remover caracteres especiais que poderiam ser interpretados como HTML.
 
   ### código:
-  ![Código](c:\Users\danil\Downloads\xss atack.png)
+  ![xss atack](https://github.com/user-attachments/assets/2457b526-4b2a-40ea-8e06-0094de044033)
+
 
   ### Exemplo na lista:
-  ![XSS atack](c:\Users\danil\Downloads\ataque_xss_exemplo.png)
+![ataque_xss_exemplo](https://github.com/user-attachments/assets/18915a08-0c27-48d0-88e7-8c8131dc68d6)
+
 
 ## Como Usar
 1. Clone o repositório.
