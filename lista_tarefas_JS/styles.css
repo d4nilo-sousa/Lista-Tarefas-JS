@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #1e63da);
+    padding: 10px;  
+}
+
+.lista_tarefas {
+    width: 100%;
+    max-width: 540px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    background-color: rgb(245, 233, 233);
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.titulo_imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.titulo_imagem h2 {
+    color: #002765;
+    margin-right: 10px; 
+}
+
+.titulo_imagem img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+/* estilo para o campo de texto e o botão */
+.elementos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input {
+    margin-top: 30px;
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+    color: #002765;
+    transition: transform 0.3s ease;
+}
+
+/* animação que aumenta o campo de texto ao passar o mouse */
+input:hover{
+    transform: scale(1.1);
+}
+
+button {
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #002765;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: transform 0.3s ease;
+}
+
+button:hover{
+    transform: scale(0.8);
+}
+
+/* animação que faz o elemento aparecer gradualmente na tela */ 
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* estilo para o item da lista */
+ul li {
+    animation: fadeIn 0.5s ease;
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+/* animação que aumenta o item da lista ao passar o mouse */
+ul li:hover {
+    transform: scale(1.05);
+}
+
+/* estilo para as tarefas */
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;    
+    border-radius: 50%;
+    background-image: url('imagens/unchecked.png');/*imagem para as tarefas não marcadas*/
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+    transition: background-image 0.3s ease; /*animação para as tarefas não marcadas*/
+}
+
+/* estilo para as tarefas marcadas */
+ul li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
+
+/* animação de cor para as tarefas */
+ul li.checked::before {
+    background-image: url('imagens/check.png'); /*muda a imagem para o chekmark quando a tarefa é marcada*/
+}
+
+/* estilo para o x */
+ul li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    transition: background 0.3s ease; /* animação suave para o x */
+}
+
+/* animação de cor para ao passar o mouse sobre o x */
+ul li span:hover {
+    background: #ff5c5c;
+    color: white;
+}
+
+/* estilo para o footer */
+.meu-github{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+/*estilo para o link do github*/
+.meu-github a {
+    text-decoration: none;
+    color: #002765;
+}

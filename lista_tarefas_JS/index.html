@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="lista_tarefas">
+
+            <div class="titulo_imagem">
+                <h2>Lista de Tarefas</h2>
+                <img src="imagens/lista_tarefa_icon.png" alt="">
+            </div>
+
+            <div class="elementos">
+                <input type="text" id="input-box" placeholder="Adicione uma tarefa">
+                <button onclick="addTarefa()">Adicionar</button> <!---Evento de click no botão de adicionar tarefas-->
+            </div>
+            <!---Lista desordenada para as tarefas-->
+            <ul id="lista">
+            </ul>
+
+            <footer class="meu-github">
+                <p><i class="fa fa-github" aria-hidden="true"></i> <a href="https://github.com/d4nilo-sousa"> Me siga no GitHub!</a></p>
+            </footer>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
