@@ -6,7 +6,8 @@ Este é um projeto simples de uma lista de tarefas desenvolvido com HTML, CSS e 
 
 ## Aparência 
 ![tela_inicial](https://github.com/user-attachments/assets/f9d9d083-15ec-4020-8a8a-1b5a741192ee)
-Essa é a tela inicial da lista de tarefas! Ela é composta por um layout limpo e moderno, com um design centrado que facilita a usabilidade.
+
+- Essa é a tela inicial da lista de tarefas! Ela é composta por um layout limpo e moderno, com um design centrado que facilita a usabilidade.
 
 ## Funcionalidades
 - Adicionar tarefas.
@@ -27,6 +28,8 @@ Essa é a tela inicial da lista de tarefas! Ela é composta por um layout limpo 
 
   ### Exemplo na lista:
 ![ataque_xss_exemplo](https://github.com/user-attachments/assets/18915a08-0c27-48d0-88e7-8c8131dc68d6)
+
+- Aqui podemos observar que a injeção de código malicioso não alterou a estrutura da página
 
 
 ## Como Usar
